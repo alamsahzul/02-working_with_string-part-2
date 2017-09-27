@@ -1,14 +1,14 @@
-function stringManipulation(kata)
+function stringManipulation(word)
 {
-  if (kata.charAt(0)=='a' || kata.charAt(0)=='i' || kata.charAt(0)=='u' || kata.charAt(0)=='e' || kata.charAt(0)=='o' )
+  if (word.charAt(0)=='a' || word.charAt(0)=='i' || word.charAt(0)=='u' || word.charAt(0)=='e' || word.charAt(0)=='o' )
   {
-    console.log(kata);
+    console.logword);
   }
   else
   {
-    var awal = kata.charAt(0);
+    var awal = word.charAt(0);
     var tambah = 'nyo';
-    var hapus = kata.substr(1);
+    var hapus = word.substr(1);
     console.log(hapus.concat(awal,tambah));
 
   }
