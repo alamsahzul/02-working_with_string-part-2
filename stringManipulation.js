@@ -2,16 +2,16 @@ function stringManipulation(word)
 {
   if (word.charAt(0)=='a' || word.charAt(0)=='i' || word.charAt(0)=='u' || word.charAt(0)=='e' || word.charAt(0)=='o' )
   {
-    console.logword);
+    console.log(word);
   }
   else
   {
     var awal = word.charAt(0);
-    var tambah = 'nyo';
-    var hapus = word.substr(1);
-    console.log(hapus.concat(awal,tambah));
+    var addition = 'nyo';
+    var deleted = word.substr(1);
+    console.log(deleted.concat(awal,addition));
 
   }
 }
-stringManipulation('ayam');// ayam
-stringManipulation('bebek');// ebekbnyo
+stringManipulation('egg');// egg
+stringManipulation('chicken');// hickencnyo
